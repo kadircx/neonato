@@ -89,6 +89,10 @@ miui_bloatwares=(
   "com.miui.nextpay"
   "com.miui.weather2"
   "com.miui.yellowpage"
+  "com.miui.fmservice"
+  "com.mi.globalbrowser"
+  "com.miui.videoplayer"
+  "com.miui.player"
   "com.xiaomi.glgm"
   "com.xiaomi.joyose"
   "com.xiaomi.location.fused"
@@ -99,6 +103,25 @@ miui_bloatwares=(
   "com.autonavi.minimap"
   "in.amazon.mShop.android.shopping"
   "com.tencent.soter.soterserver"
+  # Remove Facebook bloatwares
+  # Because they are installed by MIUI.
+  "com.facebook.system"
+  "com.facebook.katana"
+  "com.facebook.orca"
+  "com.facebook.appmanager"
+  # Miscelanneous Promoted Apps
+  "com.netflix.partner.activation"
+  "com.zhiliaoapp.musically"
+  "ru.yandex.searchplugin"
+  "com.yandex.zen"
+  "com.ebay.mobile"
+  "com.ebay.carriers"
+  "ru.ozon.app.android"
+  "com.alibaba.aliexpresshd"
+  "sg.bigo.live" # Who uses bigo?
+  "ru.auto.ara"
+  "com.king.candycrushsaga"
+  "com.woow.talk"
 )
 
 google_bloatwares=(
@@ -108,8 +131,6 @@ google_bloatwares=(
   "com.google.android.apps.tachyon"
   "com.google.android.apps.wellbeing"
   "com.google.android.gm"
-  "com.google.android.gms"
-  "com.google.android.gms.location.history"
   "com.google.android.marvin.talkback"
   "com.google.android.music"
   "com.google.android.videos"
@@ -120,7 +141,6 @@ google_bloatwares=(
 
 android_bloatwares=(
   "com.android.egg"
-  "com.android.hotwordenrollment.okgoogle"
 )
 
 for bloatware in "${miui_bloatwares[@]}"; do
