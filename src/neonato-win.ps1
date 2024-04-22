@@ -4,6 +4,8 @@
 # See LICENSE (in root directory) for more information.
 #
 # Written by Kadir Celik on 22.04.2024
+#
+# TODO: Add MIUI Bloatwares here to...
 
 $ErrorActionPreference = "Stop"
 
@@ -103,8 +105,6 @@ $google_bloatwares = @(
   "com.google.android.apps.tachyon"
   "com.google.android.apps.wellbeing"
   "com.google.android.gm"
-  "com.google.android.gms"
-  "com.google.android.gms.location.history"
   "com.google.android.marvin.talkback"
   "com.google.android.music"
   "com.google.android.videos"
