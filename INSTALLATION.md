@@ -18,7 +18,7 @@ Before installing Neonato, ensure you have the following prerequisites installed
 5. Run the following command to start the Neonato installation script:
 
 ```bash
-./neonato-win.bat
+./src/neonato-win.ps1
 ```
 
 ### Installation on Linux
@@ -30,7 +30,7 @@ Before installing Neonato, ensure you have the following prerequisites installed
 5. Run the following command to start the Neonato installation script:
 
 ```bash
-./neanato.sh
+./src/neanato.sh
 ```
 
 ## Conclusion
